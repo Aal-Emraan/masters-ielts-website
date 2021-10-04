@@ -3,8 +3,8 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header'>
-            <h1>this is header</h1>
+        <div className='header text-white bg-primary align-center'>
+            <h1 className="pt-3">Master's IELTS</h1>
         </div>
     );
 };
