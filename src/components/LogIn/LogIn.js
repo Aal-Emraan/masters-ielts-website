@@ -3,7 +3,7 @@ import React from 'react';
 const LogIn = () => {
     return (
         <div className="container">
-            <h2 className="mt-5">Login</h2>
+            <h1 className="mt-5">Login</h1>
             <form className="w-75 mx-auto my-5 border shadow p-5 rounded text-start">
                 <div className="mb-3">
                     <label for="exampleInputEmail1" className="form-label">Email address</label>

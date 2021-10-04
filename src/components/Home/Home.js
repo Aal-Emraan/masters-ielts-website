@@ -16,14 +16,14 @@ const Home = () => {
             <div>
                 <HomeInfo></HomeInfo>
             </div>
-            <div>
-                <Services></Services>
-            </div>
             <div className="row g-3 my-5">
                 <h1 className="">Our Top Courses</h1>
             {
                 data.slice(6,10).map(dt => <Card key={dt.title} data={dt}></Card>)
             }
+            </div>
+            <div>
+                <Services></Services>
             </div>
             <div>
                 <About></About>

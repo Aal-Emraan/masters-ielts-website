@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div className="my-5 shadow p-3 container">
             <h1 className="py-2">
-                Why Choose Us
+                Our Best Services
             </h1>
             <div className="row">
                 <div className="col-4">
