@@ -22,7 +22,7 @@ const Home = () => {
             <div className="row g-3 my-5">
                 <h1 className="">Our Top Courses</h1>
             {
-                data.slice(6,10).map(dt => <Card data={dt}></Card>)
+                data.slice(6,10).map(dt => <Card key={dt.title} data={dt}></Card>)
             }
             </div>
             <div>

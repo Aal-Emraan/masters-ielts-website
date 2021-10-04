@@ -4,10 +4,10 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer bg-dark text-white p-3">
-            <div className="row container mx-auto pt-4">
-                <div className="col-4">
+            <div className="row container mx-auto py-3 shadow my-3">
+                <div className="col-4 text-start border-end">
                     <h4>Our Other Courses</h4>
-                    <ul className="text-start mt-4">
+                    <ul className="mt-4">
                         <li>Speaking Expert</li>
                         <li>Learning English Properly</li>
                         <li>Awesome Handwriting</li>
@@ -26,7 +26,7 @@ const Footer = () => {
                         <li><a href="3">Discord</a></li>
                     </ul>    
                 </div>
-                <div className="col-4">
+                <div className="col-4 border-start">
                     <h4>Contact Us</h4>
                     <div className=' mt-4'>
                         <p>Email: myemail@gmail.com</p>

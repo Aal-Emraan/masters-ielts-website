@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/Services/Services';
 import About from './components/About/About';
@@ -13,9 +12,8 @@ import LogIn from './components/LogIn/LogIn';
 function App() {
   return (
     <div className="App bg-light">
-      <Header></Header>
       <Router>
-        <NavBar></NavBar>
+      <Header></Header>
         <Switch>
           <Route path="/home">
               <Home></Home>
