@@ -3,6 +3,11 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Services from './components/Services/Services';
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import Courses from './components/Courses/Courses';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -12,7 +17,22 @@ function App() {
         <NavBar></NavBar>
         <Switch>
           <Route path="/home">
-              <Header></Header>
+              <Home></Home>
+          </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/courses">
+            <Courses></Courses>
+          </Route>
+          <Route path="/services">
+            <Services></Services>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
