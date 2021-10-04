@@ -19,7 +19,7 @@ const Home = () => {
                 <Services></Services>
             </div>
             <div className="row g-3 my-5">
-                <h1 className="text-dark">Our Top Courses</h1>
+                <h1 className="">Our Top Courses</h1>
             {
                 data.map(dt => <Card data={dt}></Card>)
             }

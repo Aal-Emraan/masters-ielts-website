@@ -11,7 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-light">
       <Header></Header>
       <Router>
         <NavBar></NavBar>
