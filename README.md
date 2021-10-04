@@ -4,7 +4,7 @@ visit this site [Master's IELTS](https://educational-website-0d2d2e.netlify.app/
 
 ## Facilities
 
-In this website you can lear about:
+In this website you can learn about:
 
 ### `IELTS Speaking`
 
