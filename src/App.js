@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
 import NotFound from './components/NotFound/NotFound';
+import LogIn from './components/LogIn/LogIn';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/login">
+            <LogIn></LogIn>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

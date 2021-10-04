@@ -10,6 +10,7 @@ const Courses = () => {
     }, []);
     return (
         <div className="row g-3 my-5 container mx-auto">
+            <h2>All Courses</h2>
             {
                 data.map(dt => <Card data={dt}></Card>)
             }
