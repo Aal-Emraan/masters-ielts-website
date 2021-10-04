@@ -1,6 +1,6 @@
 [
-    {"title": "Listening", "description": "update your listening skills", "img": "https://i2.wp.com/ieltscharlie.com/wp-content/uploads/2020/02/ielts-listening-tips.jpeg?fit=1920%2C1080&ssl=1"},
-    {"title": "Speaking", "description": "update your speaking skills", "img": "https://www.ghaniassociate.com/wp-content/uploads/2020/12/ielts-speaking-part-2.jpeg"},
-    {"title": "Reading", "description": "update your reading skills", "img": "https://ieltsmaterial.com/images/theme/category/reading.jpg"},
-    {"title": "Writing", "description": "update your writing skills", "img": "https://i1.wp.com/ieltscharlie.com/wp-content/uploads/2016/12/ielts-writing-task-2.jpeg?fit=720%2C405&ssl=1"}
+    {"title": "Listening", "description": "update your listening skills", "img": "https://i2.wp.com/ieltscharlie.com/wp-content/uploads/2020/02/ielts-listening-tips.jpeg?fit=1920%2C1080&ssl=1", "price": "$149"},
+    {"title": "Speaking", "description": "update your speaking skills", "img": "https://www.ghaniassociate.com/wp-content/uploads/2020/12/ielts-speaking-part-2.jpeg", "price": "$159"},
+    {"title": "Reading", "description": "update your reading skills", "img": "https://ieltsmaterial.com/images/theme/category/reading.jpg", "price": "$139"},
+    {"title": "Writing", "description": "update your writing skills", "img": "https://i1.wp.com/ieltscharlie.com/wp-content/uploads/2016/12/ielts-writing-task-2.jpeg?fit=720%2C405&ssl=1", "price": "$149"}
 ]
